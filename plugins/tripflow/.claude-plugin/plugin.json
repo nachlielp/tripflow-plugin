@@ -1,0 +1,21 @@
+{
+  "name": "tripflow",
+  "version": "0.2.0",
+  "description": "Plan and edit TripFlow itineraries using your connected account, Google Places search, and dated or saved places.",
+  "author": {
+    "name": "TripFlow"
+  },
+  "homepage": "https://tripflow.cc",
+  "repository": "https://github.com/nachlielp/tripflow-plugin",
+  "keywords": ["travel", "itinerary", "trip-planning", "places"],
+  "mcpServers": {
+    "tripflow": {
+      "type": "http",
+      "url": "https://tripflow.cc/mcp",
+      "oauth": {
+        "clientId": "8TRkWbj339g9Y087",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

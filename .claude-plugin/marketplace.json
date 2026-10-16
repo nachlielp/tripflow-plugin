@@ -1,0 +1,19 @@
+{
+  "name": "tripflow",
+  "owner": {
+    "name": "TripFlow"
+  },
+  "metadata": {
+    "description": "TripFlow trip-planning tools for Claude: list, create, and edit itineraries at tripflow.cc."
+  },
+  "plugins": [
+    {
+      "name": "tripflow",
+      "source": "./plugins/tripflow",
+      "description": "Plan and edit TripFlow itineraries using your connected account, Google Places search, and dated or saved places.",
+      "version": "0.2.0",
+      "category": "productivity",
+      "homepage": "https://tripflow.cc"
+    }
+  ]
+}
